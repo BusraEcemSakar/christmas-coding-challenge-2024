@@ -19,3 +19,11 @@ Technique: Sliding Window
 Time Complexity: O(n), where n is the length of the string
 
 Space Complexity: O(k), where k is the size of the character set (e.g., English letters, digits, symbols, etc.)
+
+
+# DAY 2
+Nth Highest Salary
+
+This repository contains a Python solution to find Nth Highest Salary.
+
+Given an Employee table with id and salary, write a function nth_highest_salary to return the nth highest salary. If there are fewer distinct salaries than n, the function should return None.
