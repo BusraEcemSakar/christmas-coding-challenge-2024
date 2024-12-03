@@ -27,3 +27,18 @@ Nth Highest Salary
 This repository contains a Python solution to find Nth Highest Salary.
 
 Given an Employee table with id and salary, write a function nth_highest_salary to return the nth highest salary. If there are fewer distinct salaries than n, the function should return None.
+
+# DAY 3
+Rank Scores
+
+This repository contains a Python solution to find Rank Scores.
+
+The ranking should be calculated according to the following rules:
+
+-The scores should be ranked from the highest to the lowest.
+
+-If there is a tie between two scores, both should have the same ranking.
+
+-After a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no holes between ranks.
+
+Return the result table ordered by score in descending order.
