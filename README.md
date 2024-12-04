@@ -42,3 +42,16 @@ The ranking should be calculated according to the following rules:
 -After a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no holes between ranks.
 
 Return the result table ordered by score in descending order.
+
+# DAY 4
+
+Delete Duplicate Emails
+
+Remove duplicate email entries from a DataFrame. Retain only the row with the smallest id for each unique email. Modify the DataFrame in place.
+
+Method
+
+Sort the DataFrame by the id column to ensure the smallest id appears first.
+
+Use drop_duplicates on the email column, keeping only the first occurrence.
+
